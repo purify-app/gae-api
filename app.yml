@@ -1,0 +1,13 @@
+runtime: python36
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: main.app
+
+libraries:
+- name: flask
+  version: 0.12
+- name: transformers
+  version: 3.5.1
